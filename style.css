@@ -1,0 +1,66 @@
+.søk {
+    width: 200px;
+    height: 35px;
+    border: rgb(255, 196, 0) 1px solid;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    color: white;
+
+}
+
+#input {
+    height: 20px;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    margin: -10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+}
+
+#input:focus {
+    outline: none;
+}
+
+.temp {
+    margin-top: -25px;
+}
+
+.søk:hover {
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+
+}
+
+.output {
+    color: white;
+    margin-top: -10px;
+}
+
+body {
+    padding: 50px;
+    color: rgb(255, 196, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Abstract_technology_circles_and_light_background.jpg");
+    background-color: rgb(0, 0, 0, 0.7);
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+.small {
+    font-size: 15px;
+}
+
+#desc {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: rgb(26, 22, 22);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+}
